@@ -151,10 +151,10 @@ button {
     background: #315aac;
 }
 
-.paypal {
-    background: #253B80;
+.ko-fi {
+    background: #ff5f5f;
 }
 
-.paypal:hover {
-    background: #222065;
+.ko-fi:hover {
+    background: #f95d5d;
 }

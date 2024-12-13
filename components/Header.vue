@@ -3,7 +3,7 @@
 	<nav
 		class='relative mx-auto flex w-full items-center justify-between sm:flex sm:items-center'
 		aria-label='global'>
-		<a class='flex-none text-xl font-semibold' href='/' aria-label='Brand'>resume</a>
+		<a class='flex-none text-xl font-semibold' href='/' aria-label='Brand'>Tareque Md Hanif</a>
 
 		<div class='flex flex-row items-center justify-center gap-x-5 sm:gap-x-7'>
 			<a

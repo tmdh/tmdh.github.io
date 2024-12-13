@@ -55,7 +55,9 @@ export default {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-				satoshi: ['Satoshi', 'sans'],
+				zed: ['Zed', 'sans'],
+				serif: [...fontFamily.serif],
+				lora: ['Lora', 'serif']
 			}
 		}
 	},

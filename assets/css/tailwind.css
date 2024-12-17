@@ -77,3 +77,9 @@
 		@apply bg-background text-foreground;
 	}
 }
+
+@layer utilities {
+	.w-1\/2-gapped {
+		width: calc(50% - 1rem);
+	}
+}

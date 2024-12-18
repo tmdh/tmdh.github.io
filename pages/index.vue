@@ -66,6 +66,13 @@
                 multimodal models for low-resource languages, such as Bengali.
             </p>
         </Section>
+        <Section title="Skills">
+            <SkillLayout title="Languages" :skills="languages" />
+            <SkillLayout title="Frontend" :skills="frontend" />
+            <SkillLayout title="Backend" :skills="backend" />
+            <SkillLayout title="Machine Learning" :skills="ml" />
+            <SkillLayout title="Others" :skills="others" />
+        </Section>
         <!-- {
 			allPostsByDate.length > 0 && (
 				<Section title='Posts'>
@@ -80,23 +87,6 @@
 			)
 		} -->
 
-        <Section title="Education">
-            <Card
-                heading="Chittagong University of Engineering and Technology"
-                subheading="B. Sc. in Computer Science and Engineering"
-                date="2020 - Current"
-                imagePath="/cuetlogo.png"
-                imageClass="h-12 w-auto md:-left-16"
-            >
-            </Card>
-            <Card
-                heading="Bangladesh International School and College, Jeddah"
-                subheading="PSC, JSC, SSC and HSC"
-                date="2007 - 2019"
-                imagePath="/biscjlogo.png"
-                imageClass="h-12 w-auto md:-left-16"
-            />
-        </Section>
         <Section title="Projects">
             <div class="flex flex-wrap flex-row gap-8">
                 <ProjectCard
@@ -137,6 +127,25 @@
                 />
             </div>
         </Section>
+
+        <Section title="Education">
+            <Card
+                heading="Chittagong University of Engineering and Technology"
+                subheading="B. Sc. in Computer Science and Engineering"
+                date="2020 - Current"
+                imagePath="/cuetlogo.png"
+                imageClass="h-12 w-auto md:-left-16"
+            >
+            </Card>
+            <Card
+                heading="Bangladesh International School and College, Jeddah"
+                subheading="PSC, JSC, SSC and HSC"
+                date="2007 - 2019"
+                imagePath="/biscjlogo.png"
+                imageClass="h-12 w-auto md:-left-16"
+            />
+        </Section>
+
         <Section title="Experience">
             <Card
                 heading="Hamid Al-Mostadi Est"
@@ -167,13 +176,6 @@
                 href="https://www.linkedin.com/posts/tareque-md-hanif_after-succeeding-in-two-preliminary-rounds-activity-7196011423712362496-rpQ2?utm_source=share&utm_medium=member_desktop"
             />
         </Section>
-        <Section title="Skills">
-            <SkillLayout title="Languages" :skills="languages" />
-            <SkillLayout title="Frontend" :skills="frontend" />
-            <SkillLayout title="Backend" :skills="backend" />
-            <SkillLayout title="Machine Learning" :skills="ml" />
-            <SkillLayout title="Others" :skills="others" />
-        </Section>
     </div>
     <!-- <a
         href="https://github.com/srleom/astro-theme-resume.git"
@@ -198,9 +200,17 @@ import {
     ArrowDownTrayIcon,
 } from "@heroicons/vue/24/outline";
 
-const languages = ["JavaScript", "TypeScript", "Python", "C++", "Rust", "Dart"];
+const languages = [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "C++",
+    "Rust",
+    "Dart",
+    "Kotlin",
+];
 const frontend = ["Vue", "TailwindCSS", "Flutter", "Jetpack Compose"];
-const backend = ["Node.js", "Express", "MySQL", "Firebase", "MongoDB"];
+const backend = ["Node.js", "Express", "MySQL", "MongoDB", "Firebase"];
 const ml = ["PyTorch", "Huggingface", "BERT", "CNN"];
-const others = ["Electron.js", "Linux", "Git"];
+const others = ["Linux", "Git", "Docker", "Kubernetes", "Electron.js"];
 </script>

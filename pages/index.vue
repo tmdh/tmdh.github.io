@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full flex-col gap-y-10">
+    <div class="flex w-full flex-col gap-y-10 mt-10">
         <section class="flex flex-col items-center gap-y-7">
             <NuxtImg
                 src="/tareque.jpeg"
@@ -10,6 +10,7 @@
 
             <div class="flex flex-col items-center gap-y-4">
                 <h1 class="text-3xl font-lora italic">Tareque Md Hanif</h1>
+                <!--
                 <a
                     href="https://github.com/srleom/astro-theme-resume.git"
                     class="flex flex-row items-center gap-x-2 rounded-3xl border border-input px-4 py-2 text-sm shadow-sm transition-all hover:shadow-md"
@@ -19,6 +20,7 @@
                     ></ArrowDownTrayIcon>
                     <p class="font-medium">Resume</p>
                 </a>
+                -->
                 <div class="flex flex-wrap justify-center gap-x-7 gap-y-3">
                     <Label title="CUET">
                         <AcademicCapIcon class="h-5 w-5"></AcademicCapIcon>
@@ -110,24 +112,28 @@
                     imagePath="/ecopoints.png"
                 />
                 <ProjectCard
+                    href="https://github.com/tmdh/summit_backend"
                     heading="Summit"
                     subheading="A text summarization app made with Flutter"
-                    imagePath="/coming-soon.webp"
+                    imagePath="/summit.png"
                 />
                 <ProjectCard
+                    href="https://github.com/codeflow-dev/simplux"
                     heading="Simplux"
                     subheading="Linear programming problem solver"
-                    imagePath="/coming-soon.webp"
+                    imagePath="/simplux.png"
                 />
                 <ProjectCard
+                    href="https://github.com/codeflow-dev/codeflow"
                     heading="Codeflow"
                     subheading="An online competitive programming platform made with Node.js and MongoDB"
-                    imagePath="/coming-soon.webp"
+                    imagePath="/codeflow.jpg"
                 />
                 <ProjectCard
+                    href="https://github.com/tmdh/copper"
                     heading="Copper"
                     subheading="A code editor for competitive programming"
-                    imagePath="/coming-soon.webp"
+                    imagePath="/copper.jpg"
                 />
             </div>
         </Section>

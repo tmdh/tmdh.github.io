@@ -13,7 +13,7 @@
 useHead({
     bodyAttrs: {
         class: "dark",
-        title: "Tareque Md Hanif",
     },
+    title: "Tareque Md Hanif",
 });
 </script>

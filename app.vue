@@ -16,4 +16,7 @@ useHead({
     },
     title: "Tareque Md Hanif",
 });
+useSeoMeta({
+    ogImage: "https://tmdh.github.io/ogImage.png",
+});
 </script>

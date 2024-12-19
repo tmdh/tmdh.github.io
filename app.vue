@@ -19,7 +19,7 @@ useHead({
 useSeoMeta({
     ogUrl: "https://tmdh.github.io",
     ogType: "website",
-    ogTitle: "Personal Website of Tareque Md Hanif",
+    ogTitle: "Tareque Md Hanif: Personal Website",
     ogDescription: "",
     ogImage: "https://tmdh.github.io/ogimage.png",
 });

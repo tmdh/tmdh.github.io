@@ -65,6 +65,7 @@
                 researching Natural Language Processing. I am also interested in
                 multimodal models for low-resource languages, such as Bengali.
             </p>
+<p>As a competitive programmer, I have achieved a <a href="https://codeforces.com/profile/tmdh" class="text-cyan-400" target="blank">specialist</a> rating in Codeforces.</p>
         </Section>
         <Section title="Skills">
             <SkillLayout title="Languages" :skills="languages" />

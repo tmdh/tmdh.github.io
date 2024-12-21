@@ -51,7 +51,7 @@
         </section>
 
         <Section title="About">
-            <p class="text-muted-foreground">
+            <p>
                 I am an undergraduate student in the department of
                 <a href="https://cuet.ac.bd/dept/cse"
                     >Computer Science and Engineering</a

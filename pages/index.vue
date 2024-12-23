@@ -151,7 +151,7 @@
             <Card
                 heading="Hamid Al-Mostadi Est"
                 subheading="Software Developer and Salesman (Part-time)"
-                date="2014 - 2028"
+                date="2014 - 2018"
             >
                 <ul class="ml-4 list-disc text-muted-foreground">
                     <li>

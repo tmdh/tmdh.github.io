@@ -46,6 +46,14 @@
                             ></path>
                         </svg>
                     </Label>
+                    <Label
+                        title="Resume"
+                        as="a"
+                        href="Tareque Md Hanif.pdf"
+                        target="_blank"
+                    >
+                        <ClipboardDocumentIcon class="h-5 w-5"></ClipboardDocumentIcon>
+                    </Label>
                 </div>
             </div>
         </section>
@@ -199,6 +207,7 @@ import {
     AcademicCapIcon,
     MapPinIcon,
     ArrowDownTrayIcon,
+    ClipboardDocumentIcon
 } from "@heroicons/vue/24/outline";
 
 const languages = [

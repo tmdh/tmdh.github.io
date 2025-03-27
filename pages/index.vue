@@ -154,7 +154,7 @@
                 imageClass="h-12 w-auto md:-left-16"
             />
         </Section>
-
+<!--
         <Section title="Experience">
             <Card
                 heading="Hamid Al-Mostadi Est"
@@ -173,7 +173,7 @@
                 </ul>
             </Card>
         </Section>
-
+-->
         <Section title="Certifications and Achievements">
             <Card
                 as="a"

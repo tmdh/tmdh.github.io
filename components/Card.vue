@@ -6,8 +6,8 @@
                 <h1 class='text-lg font-medium' v-text="heading"></h1>
                 <h2 class='text-muted-foreground' v-text="subheading"></h2>
                 <h2 class='text-muted-foreground' v-text="date"></h2>
+                <slot></slot>
             </div>
-            <slot></slot>
         </div>
     </component>
 </template>

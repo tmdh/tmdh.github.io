@@ -46,6 +46,16 @@
                             ></path>
                         </svg>
                     </Label>
+<!--
+                    <Label
+                        title="Resume"
+                        as="a"
+                        href="Tareque Md Hanif.pdf"
+                        target="_blank"
+                    >
+                        <ClipboardDocumentIcon class="h-5 w-5"></ClipboardDocumentIcon>
+                    </Label>
+-->
                 </div>
             </div>
         </section>
@@ -146,12 +156,12 @@
                 imageClass="h-12 w-auto md:-left-16"
             />
         </Section>
-
+<!--
         <Section title="Experience">
             <Card
                 heading="Hamid Al-Mostadi Est"
                 subheading="Software Developer and Salesman (Part-time)"
-                date="2014 - 2028"
+                date="2014 - 2018"
             >
                 <ul class="ml-4 list-disc text-muted-foreground">
                     <li>
@@ -165,7 +175,21 @@
                 </ul>
             </Card>
         </Section>
-
+-->
+        <Section title="Publications">
+            <Card
+                heading="Fine-tuning Transformers for Detecting Abusive Text Targeting Women from Tamil and Malayalam Texts"
+                subheading="Tareque Md Hanif and Md Rashadur Rahman"
+                imagePath="/naacl-logo.png"
+                imageClass="h-8 w-auto md:-left-16"
+            >
+                <h2 class='text-muted-foreground flex'>
+                    <a href="https://aclanthology.org/2025.dravidianlangtech-1.55/" class="underline">Paper</a>
+                    <span class="w-4">&nbsp;</span>
+                    <a href="https://github.com/tmdh/DravidianLangTech-NAACL-2025-ATTW" class="underline">Code</a>
+                </h2>
+            </Card>
+        </Section>
         <Section title="Certifications and Achievements">
             <Card
                 as="a"
@@ -175,6 +199,15 @@
                 imagePath="/codesamurai.png"
                 imageClass="h-8 w-auto md:-left-16"
                 href="https://www.linkedin.com/posts/tareque-md-hanif_after-succeeding-in-two-preliminary-rounds-activity-7196011423712362496-rpQ2?utm_source=share&utm_medium=member_desktop"
+            />
+            <Card
+                as="a"
+                heading="Embark on DevOps"
+                subheading="Has successfully completed training on DevOps tools conducted by Department of Computer Science and Engineering, CUET under EDGE Project"
+                date="April 2024"
+                imagePath="/edge.png"
+                imageClass="h-auto w-11 md:-left-16"
+                href="https://www.linkedin.com/posts/tareque-md-hanif_docker-kubernetes-activity-7323564348080050176-zsdc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACo27AIBFa8wvERf4ykJSiTEgwUdjuaN2vc"
             />
         </Section>
     </div>
@@ -199,6 +232,7 @@ import {
     AcademicCapIcon,
     MapPinIcon,
     ArrowDownTrayIcon,
+    ClipboardDocumentIcon
 } from "@heroicons/vue/24/outline";
 
 const languages = [

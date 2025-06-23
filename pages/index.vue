@@ -143,7 +143,7 @@
             <Card
                 heading="Chittagong University of Engineering and Technology"
                 subheading="B. Sc. in Computer Science and Engineering"
-                date="2020 - Current"
+                date="2020 - 2025"
                 imagePath="/cuetlogo.png"
                 imageClass="h-12 w-auto md:-left-16"
             >

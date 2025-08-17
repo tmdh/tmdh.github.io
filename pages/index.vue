@@ -138,7 +138,28 @@
                 />
             </div>
         </Section>
-
+        <Section title="Experience">
+            <Card
+                heading="Samsung R&D Institute Bangladesh"
+                imagePath="/srbdlogo.jpeg"
+                imageClass="h-11 w-auto md:-left-16"
+                subheading="Software Engineer"
+                date="2025 - Present"
+            >
+                <!--
+                <ul class="ml-4 list-disc text-muted-foreground">
+                    <li>
+                        Developed a custom invoicing software for wholesale
+                        recharge card sale using PHP
+                    </li>
+                    <li>
+                        Maintained and fixed numerous bugs in the system
+                        throughout my time there
+                    </li>
+                </ul>
+                -->
+            </Card>
+        </Section>
         <Section title="Education">
             <Card
                 heading="Chittagong University of Engineering and Technology"
@@ -156,26 +177,6 @@
                 imageClass="h-12 w-auto md:-left-16"
             />
         </Section>
-<!--
-        <Section title="Experience">
-            <Card
-                heading="Hamid Al-Mostadi Est"
-                subheading="Software Developer and Salesman (Part-time)"
-                date="2014 - 2018"
-            >
-                <ul class="ml-4 list-disc text-muted-foreground">
-                    <li>
-                        Developed a custom invoicing software for wholesale
-                        recharge card sale using PHP
-                    </li>
-                    <li>
-                        Maintained and fixed numerous bugs in the system
-                        throughout my time there
-                    </li>
-                </ul>
-            </Card>
-        </Section>
--->
         <Section title="Publications">
             <Card
                 heading="Fine-tuning Transformers for Detecting Abusive Text Targeting Women from Tamil and Malayalam Texts"
@@ -204,7 +205,7 @@
                 as="a"
                 heading="Embark on DevOps"
                 subheading="Has successfully completed training on DevOps tools conducted by Department of Computer Science and Engineering, CUET under EDGE Project"
-                date="April 2024"
+                date="April 2025"
                 imagePath="/edge.png"
                 imageClass="h-auto w-11 md:-left-16"
                 href="https://www.linkedin.com/posts/tareque-md-hanif_docker-kubernetes-activity-7323564348080050176-zsdc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACo27AIBFa8wvERf4ykJSiTEgwUdjuaN2vc"

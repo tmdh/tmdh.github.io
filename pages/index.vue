@@ -25,7 +25,7 @@
                     <Label title="CUET">
                         <AcademicCapIcon class="h-5 w-5"></AcademicCapIcon>
                     </Label>
-                    <Label title="Chittagong">
+                    <Label title="Dhaka">
                         <MapPinIcon class="h-5 w-5"></MapPinIcon>
                     </Label>
                     <Label
